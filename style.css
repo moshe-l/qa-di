@@ -1,0 +1,86 @@
+.header {
+    color: blue;
+}
+*{
+    box-sizing: border-box;
+}
+
+div {
+    color: midnightblue;
+}
+
+#div1 {
+    color: black;
+}
+
+body {
+    direction: rtl;
+   background-image: url("reka.jpg");
+   background-repeat: no-repeat;
+   /* background-position: fix; */
+   background-size: cover;
+}
+
+div input{
+   
+}
+
+header {
+    text-align: center;
+}
+table{
+    border-collapse: collapse;    
+width: 100%;
+text-align: center;
+ margin-top: 50px;
+
+}
+
+td{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+   padding: 50px 0px;
+   margin: 0px auto;
+}
+
+table tr:nth-child(2n){
+    background-color: cadetblue;
+}
+table tr:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+#h1{
+font-size: 80px;
+margin: 0px auto;
+}
+
+#reka{
+    background-image: url("imegs/reka.jpg");
+}
+.imeges > div{
+    float: right;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    
+    height: 100px;
+    width: 100px;
+    transition: ease 0.5s height;
+  
+}
+img:hover{
+    height: 120px;
+    width: 120px;
+}
+.imeges{
+    clear: both;
+  margin-top: 10px;
+}
+textarea {
+    resize: none;
+  }
